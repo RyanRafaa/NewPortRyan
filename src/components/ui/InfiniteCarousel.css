@@ -1,0 +1,22 @@
+/* InfiniteCarousel.css */
+.infinite-carousel-container {
+  overflow: hidden;
+  width: 100%;
+  max-width: 100vw;
+}
+
+.infinite-carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.infinite-carousel-logo {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+.infinite-carousel-logo img {
+  width: 100%;
+  height: auto;
+}
