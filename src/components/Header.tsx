@@ -9,7 +9,7 @@ export const Header = (): JSX.Element => {
 
       <div className="col-span-2 hidden lg:block">
         <div className="bg-black w-full h-12 rounded-full shadow-md shadow-neutral-800/10 flex justify-between gap-4 px-12 items-center">
-            <a href="" className="text-white">Home</a>
+            <a href="" className="text-white opacit">Home</a>
             <a href="" className="text-white">About</a>
             <a href="" className="text-white">Projects</a>
             <a href="" className="text-white">Contact</a>

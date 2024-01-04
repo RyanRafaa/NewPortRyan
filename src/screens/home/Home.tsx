@@ -1,6 +1,10 @@
 import { Header } from "../../components/Header";
 import { useEffect, useState } from 'react';
 import "./Home.css";
+import MyCarousel from "../../components/ui/carouselProjects";
+
+
+
 
 export const Home = () => {
   const TextAnimation = ({ texts, onFinish }:any) => {
@@ -141,9 +145,25 @@ export const Home = () => {
         <div className="absolute bottom-0 triangle-three"></div>
       </div>
 
-      <div className="h-[20vh] relative bg-gradient-to-b from-gray-500 via-gray-200 to-gray-300 w-full" id="section3">
-        <div className="absolute right-0 triangle"></div>
-        <div className="absolute bottom-0 triangle-three"></div>
+
+      <div className="h-[100vh] relative flex justify-center items-center w-full" id="section2" >
+        <div className="absolute left-0 top-0 triangle-four"></div>
+        <div className=" h-1/2 w-full flex justify-center items-center ">
+        <img src="/public/logo.svg" alt="" className="w-1/2"/>
+        </div>
+        {/* <div className="absolute bottom-0 triangle-three"></div> */}
+      </div>
+      <div className="h-[100vh] bg-gradient-to-b from-black via-zinc-950 to-black relative flex justify-center items-center w-full" id="section2" >
+        <MyCarousel/>
+        {/* <div className="absolute bottom-0 triangle-three"></div> */}
+      </div>
+      <div className="h-[100vh] bg-gradient-to-b from-gray-300 via-gray-200 to-gray-500 relative flex justify-center items-center w-full" id="section2" >
+        
+        {/* <div className="absolute bottom-0 triangle-three"></div> */}
+      </div>
+
+      <div className="h-[20vh] bg-cyan-700" id="section3">
+        
       </div>
     </div>
   );
