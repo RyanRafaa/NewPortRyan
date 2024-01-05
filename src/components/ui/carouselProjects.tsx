@@ -4,19 +4,19 @@ const MyCarousel = () => {
   const slides = [
     {
       content: 
-      <img src="/public/proj1.png" alt="1" />
+      <img src="proj1.png" alt="1" />
     },
     {
       content: 
-      <img src="/public/proj2.png" alt="2" />
+      <img src="proj2.png" alt="2" />
     },
     {
       content: 
-      <img src="/public/proj3.png" alt="3" />
+      <img src="proj3.png" alt="3" />
     },
     {
       content: 
-      <img src="/public/proj4.png" alt="4" />
+      <img src="proj4.png" alt="4" />
     },
 
 

@@ -125,12 +125,12 @@ export const Home = () => {
           )}
           {textFourFinished && textThreeFinished && textTwoFinished && textOneFinished && Finished && (
             <div className=" w-1/2 md:h-12 h-8 sm:mt-2 p-2 flex gap-4 justify-center">
-              <img className='h-full fade-in-initial slide-in-left' src="/public/js.png" alt="" />
-              <img className='h-full fade-in-initial slide-in-left' src="/public/typescript.png" alt="" />
-              <img className='h-full fade-in-initial slide-in-left' src="/public/css.png" alt="" />
-              <img className='h-full fade-in slide-in-left' src="/public/html.png" alt="" />
-              <img className='h-full fade-in slide-in-left' src="/public/react.png" alt="" />
-              <img className='h-full fade-in slide-in-left' src="/public/nodejs.png" alt="" />
+              <img className='h-full fade-in-initial slide-in-left' src="js.png" alt="" />
+              <img className='h-full fade-in-initial slide-in-left' src="typescript.png" alt="" />
+              <img className='h-full fade-in-initial slide-in-left' src="css.png" alt="" />
+              <img className='h-full fade-in slide-in-left' src="html.png" alt="" />
+              <img className='h-full fade-in slide-in-left' src="react.png" alt="" />
+              <img className='h-full fade-in slide-in-left' src="nodejs.png" alt="" />
             </div>
           )}
 
@@ -142,7 +142,7 @@ export const Home = () => {
       <div className="h-[100vh] relative bg-gradient-to-b from-gray-300 via-gray-200 to-gray-500 w-full text-center" id="About" >
         <div className="absolute right-0 triangle"></div>
         <div className="absolute bottom-0 triangle-three"></div>
-        <img src="/public/astronauta-deitado.png" alt="" className="sm:w-40 w-20 absolute bottom-0 sm:left-8 left-2" />
+        <img src="astronauta-deitado.png" alt="" className="sm:w-40 w-20 absolute bottom-0 sm:left-8 left-2" />
         <div className="w-full h-full flex flex-col gap-8 p-2 justify-center items-center">
       <h2 className="text-2xl md:text-5xl text-black" ><span className="text-cyan-700 font-bold ">#</span> About</h2>
       <h3 className="text-black text-xl font-semibold">Hello, crewmate, welcome to my world! </h3>
@@ -155,7 +155,7 @@ export const Home = () => {
       <div className="md:h-[100vh] h-[40vh] relative flex justify-center items-center w-full" id="section2" >
         <div className="absolute left-0 top-0 triangle-four"></div>
         <div className=" h-1/2 w-full flex justify-center items-center ">
-          <img src="/public/logo.svg" alt="" className="w-1/2" />
+          <img src="logo.svg" alt="" className="w-1/2" />
         </div>
         {/* <div className="absolute bottom-0 triangle-three"></div> */}
       </div>
@@ -171,13 +171,13 @@ export const Home = () => {
           
         
 
-          <img src="/public/proj1.png"  alt="1" />
+          <img src="proj1.png"  alt="1" />
     
-          <img src="/public/proj2.png" alt="2" />
+          <img src="proj2.png" alt="2" />
 
-          <img src="/public/proj3.png" alt="3" />
+          <img src="proj3.png" alt="3" />
 
-          <img src="/public/proj4.png" alt="4" />
+          <img src="proj4.png" alt="4" />
     
         </div>
 
@@ -190,13 +190,13 @@ export const Home = () => {
 
       <div className="h-[20vh] bg-cyan-700 flex flex-col justify-center text-center" id="MyLinks">
         <div className="flex sm:flex-row flex-col items-center gap-4 sm:justify-between p-4 sm:p-8">
-          <img src="/public/logo.svg" alt="" className="w-40" />
+          <img src="logo.svg" alt="" className="w-40" />
           <div className="flex flex-col justify-center items-center sm:gap-4 w-1/2">
             <p>Follow</p>
             <div className="flex flex-row justify-center items-center gap-4">
-              <a href="https://www.instagram.com/ryanrafaag/"><img src="/public/insta.svg" alt="Instagram" /></a>
-              <a href="https://github.com/RyanRafaa"><img src="/public/github.svg" alt="Github" /></a>
-              <a href="https://www.linkedin.com/in/ryan-rafael-rocha-097a5a14a/"><img src="/public/linkedin.svg" alt="Linkedin" /></a>
+              <a href="https://www.instagram.com/ryanrafaag/"><img src="insta.svg" alt="Instagram" /></a>
+              <a href="https://github.com/RyanRafaa"><img src="github.svg" alt="Github" /></a>
+              <a href="https://www.linkedin.com/in/ryan-rafael-rocha-097a5a14a/"><img src="linkedin.svg" alt="Linkedin" /></a>
             </div>
           </div>
         </div>
