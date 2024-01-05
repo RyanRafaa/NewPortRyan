@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Carousel from 'react-spring-3d-carousel';
 
 const MyCarousel = () => {
