@@ -84,12 +84,6 @@ export const Home = () => {
       <Header />
 
 
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    
-
 
 
       <div className="h-[100vh] relative flex justify-center items-center" id="Home" >
