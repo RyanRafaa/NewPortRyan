@@ -1,7 +1,7 @@
 {
     "routes": [
       { "src": "/.*", "dest": "./index.html" },
-      { "src": "/game/.*", "dest": "@/screens/game/Aoba.tsx" }
+      { "src": "/game/.*", "dest": "/src/screens/game/Aoba.tsx" }
     ]
   }
 
