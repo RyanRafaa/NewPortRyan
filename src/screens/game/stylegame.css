@@ -6,7 +6,7 @@ html {
 }
 
 #canvas {
-    background: url('sky.jpg') no-repeat;
+    background: url('/public/sky.jpg') no-repeat;
     width: 100%;
     height: 100%;
     background-size: cover;

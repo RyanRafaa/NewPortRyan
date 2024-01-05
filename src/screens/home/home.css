@@ -1,5 +1,5 @@
 .bg {
-    background: url('sky-two.jpg') no-repeat;
+    background: url('/public/sky-two.jpg') no-repeat;
     background-size: cover;
     height: 100%;
     width: 100%;
