@@ -74,8 +74,8 @@ import CircularProgress, {
     return (
       <div className="h-[100vh] w-full relative flex justify-center md:items-center">
         {banner && (
-          <div className="absolute bg-black flex flex-col gap-8 justify-center items-center w-full h-full">
-            <img src="/public/bannergame.png" alt="" className="w-1/2 h-1/2" />
+          <div className="absolute bg-black flex flex-col gap-8 justify-center items-center w-full h-full object-cover">
+            <img src="/public/bannergame.png" alt="" className="md:w-1/2 w-[90%] md:h-1/2" />
             <CircularProgressWithLabel value={progress} color="info" size={'60px'} />
           </div>
         )}

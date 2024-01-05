@@ -84,7 +84,11 @@ export const Home = () => {
       <Header />
 
 
-
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    
 
 
 
@@ -141,14 +145,20 @@ export const Home = () => {
       </div>
 
 
-      <div className="h-[100vh] relative bg-gradient-to-b from-gray-300 via-gray-200 to-gray-500 w-full" id="About" >
+      <div className="h-[100vh] relative bg-gradient-to-b from-gray-300 via-gray-200 to-gray-500 w-full text-center" id="About" >
         <div className="absolute right-0 triangle"></div>
         <div className="absolute bottom-0 triangle-three"></div>
+        <img src="/public/astronauta-deitado.png" alt="" className="sm:w-40 w-20 absolute bottom-0 sm:left-8 left-2" />
+        <div className="w-full h-full flex flex-col gap-8 p-2 justify-center items-center">
+      <h2 className="text-2xl md:text-5xl text-black" ><span className="text-cyan-700 font-bold ">#</span> About</h2>
+      <h3 className="text-black text-xl font-semibold">Hello, crewmate, welcome to my world! </h3>
+      <h6 className="text-black text-xl lg:w-1/2 w-full">My name is Ryan, I'm 22 years old, and I'm Brazilian. Currently, I work as a web developer, not that it stops me from creating things beyond that, haha! My dream? To don the Noogler cap.</h6>
+      </div>
         
       </div>
 
 
-      <div className="h-[100vh] relative flex justify-center items-center w-full" id="section2" >
+      <div className="md:h-[100vh] h-[40vh] relative flex justify-center items-center w-full" id="section2" >
         <div className="absolute left-0 top-0 triangle-four"></div>
         <div className=" h-1/2 w-full flex justify-center items-center ">
           <img src="/public/logo.svg" alt="" className="w-1/2" />
@@ -190,9 +200,9 @@ export const Home = () => {
           <div className="flex flex-col justify-center items-center sm:gap-4 w-1/2">
             <p>Follow</p>
             <div className="flex flex-row justify-center items-center gap-4">
-              <a href=""><img src="/public/insta.svg" alt="" /></a>
-              <a href=""><img src="/public/github.svg" alt="" /></a>
-              <a href=""><img src="/public/linkedin.svg" alt="" /></a>
+              <a href="https://www.instagram.com/ryanrafaag/"><img src="/public/insta.svg" alt="Instagram" /></a>
+              <a href="https://github.com/RyanRafaa"><img src="/public/github.svg" alt="Github" /></a>
+              <a href="https://www.linkedin.com/in/ryan-rafael-rocha-097a5a14a/"><img src="/public/linkedin.svg" alt="Linkedin" /></a>
             </div>
           </div>
         </div>

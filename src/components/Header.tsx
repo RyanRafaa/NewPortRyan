@@ -18,7 +18,7 @@ export const Header = (): JSX.Element => {
       </div>
       <div className="col-span-2 lg:hidden flex justify-end px-2 ">
         
-            <a href=""><img src="/public/control.svg" alt="" className="object-cover h-8" /></a>
+            <a href="/game" target="_blank"><img src="/public/control.svg" alt="" className="object-cover h-8" /></a>
         
       </div>
     </section>
