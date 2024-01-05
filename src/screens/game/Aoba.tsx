@@ -79,7 +79,7 @@ import CircularProgress, {
             <CircularProgressWithLabel value={progress} color="info" size={'60px'} />
           </div>
         )}
-        <iframe src="/src/screens/game/game.html" className="w-full h-full"></iframe>
+        <iframe src="https://space-game-roan.vercel.app/" className="w-full h-full"></iframe>
       </div>
     );
   };
