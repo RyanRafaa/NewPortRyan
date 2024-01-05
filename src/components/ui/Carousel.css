@@ -82,3 +82,13 @@ body {
   right: 0;
   transform: translateX(100%) translateY(-50%);
 }
+
+.carousel {
+  perspective: 1000px; /* Configura a perspectiva para criar o efeito 3D */
+}
+
+.carousel div {
+  display: flex;
+  flex-direction: column; /* Altera a direção para vertical */
+  transform-origin: 50% 50%; /* Define o ponto de origem da rotação */
+}

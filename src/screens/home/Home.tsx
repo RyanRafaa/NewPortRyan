@@ -7,7 +7,7 @@ import MyCarousel from "../../components/ui/carouselProjects";
 
 
 export const Home = () => {
-  const TextAnimation = ({ texts, onFinish }:any) => {
+  const TextAnimation = ({ texts, onFinish }: any) => {
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
     const [displayText, setDisplayText] = useState('');
 
@@ -73,8 +73,9 @@ export const Home = () => {
   };
 
 
+  const currentYear = new Date().getFullYear();
 
- 
+
 
 
 
@@ -87,7 +88,7 @@ export const Home = () => {
 
 
 
-      <div className="h-[100vh] relative flex justify-center items-center" id="section1" >
+      <div className="h-[100vh] relative flex justify-center items-center" id="Home" >
 
 
 
@@ -140,30 +141,67 @@ export const Home = () => {
       </div>
 
 
-      <div className="h-[100vh] relative bg-gradient-to-b from-gray-300 via-gray-200 to-gray-500 w-full" id="section2" >
+      <div className="h-[100vh] relative bg-gradient-to-b from-gray-300 via-gray-200 to-gray-500 w-full" id="About" >
         <div className="absolute right-0 triangle"></div>
         <div className="absolute bottom-0 triangle-three"></div>
+        
       </div>
 
 
       <div className="h-[100vh] relative flex justify-center items-center w-full" id="section2" >
         <div className="absolute left-0 top-0 triangle-four"></div>
         <div className=" h-1/2 w-full flex justify-center items-center ">
-        <img src="/public/logo.svg" alt="" className="w-1/2"/>
+          <img src="/public/logo.svg" alt="" className="w-1/2" />
         </div>
         {/* <div className="absolute bottom-0 triangle-three"></div> */}
       </div>
-      <div className="h-[100vh] bg-gradient-to-b from-black via-zinc-950 to-black relative flex justify-center items-center w-full" id="section2" >
-        <MyCarousel/>
-        {/* <div className="absolute bottom-0 triangle-three"></div> */}
-      </div>
-      <div className="h-[100vh] bg-gradient-to-b from-gray-300 via-gray-200 to-gray-500 relative flex justify-center items-center w-full" id="section2" >
+      <div className="md:h-[100vh] h-full bg-gradient-to-b from-black via-zinc-950 to-black relative flex flex-col justify-center items-center w-full p-4" id="Projects" >
         
-        {/* <div className="absolute bottom-0 triangle-three"></div> */}
-      </div>
+        <h2 className="text-2xl md:text-5xl" ><span className="text-cyan-700 font-bold">#</span> Projects</h2>
+        
+        <div className="hidden lg:flex relative justify-center items-center w-full h-full">
+          <MyCarousel />
+        </div>
 
-      <div className="h-[20vh] bg-cyan-700" id="section3">
+        <div className="lg:hidden grid md:grid-cols-2 grid-cols-1 gap-4 p-4 items-center w-full h-full">
+          
         
+
+          <img src="/public/proj1.png"  alt="1" />
+    
+          <img src="/public/proj2.png" alt="2" />
+
+          <img src="/public/proj3.png" alt="3" />
+
+          <img src="/public/proj4.png" alt="4" />
+    
+        </div>
+
+        {/* <div className="absolute bottom-0 triangle-three"></div> */}
+      </div>
+      {/* <div className="h-[100vh] bg-gradient-to-b from-gray-300 via-gray-200 to-gray-500 relative flex justify-center items-center w-full" id="section2" >
+
+        
+      </div> */}
+
+      <div className="h-[20vh] bg-cyan-700 flex flex-col justify-center text-center" id="MyLinks">
+        <div className="flex sm:flex-row flex-col items-center gap-4 sm:justify-between p-4 sm:p-8">
+          <img src="/public/logo.svg" alt="" className="w-40" />
+          <div className="flex flex-col justify-center items-center sm:gap-4 w-1/2">
+            <p>Follow</p>
+            <div className="flex flex-row justify-center items-center gap-4">
+              <a href=""><img src="/public/insta.svg" alt="" /></a>
+              <a href=""><img src="/public/github.svg" alt="" /></a>
+              <a href=""><img src="/public/linkedin.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+        <p className="text-[12px]">
+          Copyright © {currentYear} <span className="font-semibold">Ryan Rafael</span> | Todos os direitos reservados.
+        </p>
+        <div>
+        
+        </div>
       </div>
     </div>
   );
