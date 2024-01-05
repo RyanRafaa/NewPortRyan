@@ -91,7 +91,7 @@ export const Home = () => {
 
 
         <div className="absolute bottom-0 right-0 triangle-two z-10 "></div>
-        <img src="/public/ryan.png" alt="" className="xl:h-[90%] h-[70%] absolute bottom-0 left-0 " />
+        <img src="ryan.png" alt="" className="xl:h-[90%] h-[70%] absolute bottom-0 left-0 " />
         <div className="bg"></div>
 
         <div className="star-field">
