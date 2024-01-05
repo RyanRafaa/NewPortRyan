@@ -1,8 +1,6 @@
 {
-    "routes": [
-      { "src": "/.*", "dest": "./index.html" },
-      { "src": "/game/.*", "dest": "/src/screens/game/Aoba.tsx" }
+    "rewrites": [
+      { "source": "/(.*)", "destination": "/" }
     ]
   }
-
   
